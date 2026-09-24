@@ -61,7 +61,7 @@ const itemVariant = {
     y: 0,
     transition: { duration: 0.6, ease: "easeOut" },
   },
-};
+} as const;
 
 export default function AboutSection() {
   return (
